@@ -2,13 +2,13 @@ function pingPong(number) {
   $("#result").empty();
   for(var i = 1; i <= number; i++) {
       if (i % 3 == 0 && i % 5 == 0) {
-        $("<li>" + "Ping-Pong" + "</li>").appendTo("#result");
+        $("<li class='list-group-item list-group-item-warning'>" + "Ping-Pong" + "</li>").appendTo("#result");
       } else if (i % 5 == 0) {
-        $("<li>" + "Pong" + "</li>").appendTo("#result");
+        $("<li class='list-group-item list-group-item-danger'>" + "Pong" + "</li>").appendTo("#result");
       } else if (i % 3 == 0) {
-        $("<li>" + "Ping" + "</li>").appendTo("#result");
+        $("<li class='list-group-item list-group-item-info'>" + "Ping" + "</li>").appendTo("#result");
       } else {
-        $("<li>" + i + "</li>").appendTo("#result");
+        $("<li class='list-group-item'>" + i + "</li>").appendTo("#result");
       }
   }
 

@@ -5,7 +5,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Amatic+SC|Luckiest+Guy|Permanent+Marker|Rock+Salt" rel="stylesheet">
     <title>Ping Pong!</title>
   </head>
   <body>
@@ -13,8 +13,8 @@
       <h1 class= "jumbotron">Ping Pong!</h1>
       <div class="instructions">
         <h4 id="rules">These Are the Rules</h4>
-          <p>Ping Pong will count up to your number with the following exceptions:</p>
-          <ol>
+          <p class="ordered-rules">Ping Pong will count up to your number with the following exceptions:</p>
+          <ol class = "ordered-rules" type="i">
             <li>Numbers divisible by 3 will return "Ping"</li>
             <li>Numbers divisible by 5 will return "Pong"</li>
             <li>Numbers divisible by 15 will return "Ping-Pong"</li>
@@ -24,15 +24,19 @@
 
       <form id="ping-pong-converter">
         <div class="form-group">
-          <label for="ping-pong">Enter a number!</label>
+          <label for="ping-pong"><span id="enter">Enter a number!</span></label>
           <input id="ping-pong" type="text">
           <button type="submit" class="btn-danger">Submit</button>
         </div>
-        <div class="col-sm-3" id="result">
-        <ul id="number-list">
+        <div class="row">
+          <div class="col-sm-3">
+        <h5>Hit "Submit" to keep playing!</h5>
+        <div id="result">
+        <ul class = "list-group" id="number-list">
         </ul>
       </div>
       </form>
+    </div>
         <div class="col-sm-9">
       <img onclick="startPong()" id="press-start" src="https://i.gifer.com/9eGM.gif" alt="Press Start">
       <div class="pong-loop">
@@ -41,6 +45,7 @@
         <div class="right-wall"></div>
       </div>
     </div>
+  </div>
     </div>
   </body>
 </html>

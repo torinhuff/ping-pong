@@ -3,50 +3,90 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background position: center;
-  width: 70%;
+  width: 60%;
   margin: auto;
-  font-family: 'Rock Salt', cursive;
-  font-size: 56px;
+  margin-top: 2%;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 64px;
+  text-decoration: underline;
   color: white;
   text-align: center;
 }
 
 .instructions {
   display: block;
-  width: 40%;
+  width: 50%;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
-.col-sm-9 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+#rules {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Rock Salt', cursive;
+  font-weight: bold;
+}
+
+.ordered-rules {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 14px;
+}
+
+#enter {
+  font-family: 'Rock Salt', cursive;
+  font-size: 16px;
 }
 
 .form-group {
   display: block;
-  width: 40%;
+  width: 50%;
   margin: auto;
   margin-top: 2%;
 }
 
+.btn-danger {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 16px;
+  background-color: #410c60;
+  border: 2px solid black;
+  border-radius: 6px;
+
+}
+
+.btn-danger:hover {
+  font-size: 20px;
+}
 
 #result {
   display: none;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+
+.list-group-item {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 14px;
+}
+
+.row {
+  display: block;
+  margin: 0 auto;
+}
+
+h5 {
+  font-size: 24px;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: bold;
 }
 
 #press-start {
   display: block;
   margin: auto;
   margin-top: 5%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   width:600px;
   height:300px;
-  float: center;
 }
 
 .pong-loop{
@@ -58,11 +98,10 @@
   background-position: center;
   margin: auto;
   margin-top: 5%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   width:600px;
   height:300px;
   border-bottom:35px solid #410c60;
-  float: center;
 }
 
 .left-wall{
