@@ -83,7 +83,8 @@ h5 {
 }
 
 .follow-me {
-  width: 40%;
+  width: 50%;
+  margin: auto;
   float: right;
   display: block;
   margin-right: 12%;
