@@ -51,7 +51,6 @@
   background-color: #410c60;
   border: 2px solid black;
   border-radius: 6px;
-
 }
 
 .btn-danger:hover {
@@ -100,12 +99,12 @@ h5 {
 
 #icons {
   border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 16%;
-    margin: auto;
-    margin-left: 12%;
-    margin-top: 2%;
+  border-radius: 4px;
+  padding: 5px;
+  width: 16%;
+  margin: auto;
+  margin-left: 12%;
+  margin-top: 2%;
 }
 
 #icons:hover {
@@ -123,8 +122,8 @@ h5 {
   margin: auto;
   margin-top: 5%;
   margin-bottom: 4%;
-  width:600px;
-  height:300px;
+  width: 600px;
+  height: 300px;
 }
 
 .pong-loop{
@@ -137,27 +136,27 @@ h5 {
   margin: auto;
   margin-top: 5%;
   margin-bottom: 4%;
-  width:600px;
-  height:300px;
-  border-bottom:35px solid #410c60;
+  width: 600px;
+  height: 300px;
+  border-bottom: 35px solid #410c60;
 }
 
 .left-wall{
   border-radius: 6px;
-  float:left;
-  width:20px;
-  height:80px;
+  float: left;
+  width: 20px;
+  height: 80px;
   background-image: url(https://vignette.wikia.nocookie.net/fairlyoddparents/images/9/94/7b490aeff71d816d01296ca9f1324f87_headstone-cemetery-grave-tombstone-rip-clipart-transparent-background_611-720.png/revision/latest?cb=20170401171406&path-prefix=en);
   background-size: 20px 75px;
   background-repeat: no-repeat;
-  -webkit-animation:left-wall 3s infinite;
+  -webkit-animation: left-wall 3s infinite;
 
 }
 .right-wall{
   border-radius: 6px;
-  float:right;
-  width:20px;
-  height:80px;
+  float: right;
+  width: 20px;
+  height: 80px;
   background-image: url(https://vignette.wikia.nocookie.net/fairlyoddparents/images/9/94/7b490aeff71d816d01296ca9f1324f87_headstone-cemetery-grave-tombstone-rip-clipart-transparent-background_611-720.png/revision/latest?cb=20170401171406&path-prefix=en);
   background-size: 20px 75px;
   background-repeat: no-repeat;
@@ -165,35 +164,32 @@ h5 {
 
 }
 .ball{
-  float:left;
-  width:20px;
-  height:20px;
-  background-image:url(https://techflourish.com/images/animated-happy-halloween-clipart-12.png);
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-image: url(https://techflourish.com/images/animated-happy-halloween-clipart-12.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  border-radius:50%;
-  margin-top:30px;
-  -webkit-animation:bounce-ball 3s linear infinite;
+  border-radius: 50%;
+  margin-top: 30px;
+  -webkit-animation: bounce-ball 3s linear infinite;
 }
-@-webkit-keyframes left-wall{
-  0% {margin-top:0px;}
-  25%{margin-top:200px}
-  100%{margin-top:0px}
-
-}
-
-@-webkit-keyframes right-wall{
-  0% {margin-top:200px;}
-  50%{margin-top:0px}
-  100%{margin-top:200px}
-
+@-webkit-keyframes left-wall {
+  0% {margin-top: 0px;}
+  25%{margin-top: 200px}
+  100%{margin-top: 0px}
 }
 
-@-webkit-keyframes bounce-ball{
-  0% {margin-top:30px;}
-  25%{margin-left:250px;margin-top:252px}
-  50%{margin-left:510px;margin-top:30px;}
-  75%{margin-left:250px;margin-top:252px}
-  100%{margin-top:30px}
+@-webkit-keyframes right-wall {
+  0% {margin-top: 200px;}
+  50%{margin-top: 0px}
+  100%{margin-top: 200px}
+}
 
+@-webkit-keyframes bounce-ball {
+  0% {margin-top: 30px;}
+  25%{margin-left: 250px;margin-top: 252px}
+  50%{margin-left: 510px;margin-top: 30px;}
+  75%{margin-left: 250px;margin-top: 252px}
+  100%{margin-top: 30px}
 }
