@@ -17,7 +17,7 @@ This website will list and alter numbers that are provided by the user. "Altered
 
 ## Support and contact details
 
-_If you have any comments or suggestions please contact Torin Huff at torinhuff@yahoo.com. You can also check out my page here: <https://github.com/torinhuff/vacation-project>
+_If you have any comments or suggestions please contact Torin Huff at torinhuff@yahoo.com. You can also check out my page here: <https://github.com/torinhuff/ping-pong>
 
 ## Technologies Used
 
