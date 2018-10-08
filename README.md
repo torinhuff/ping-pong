@@ -1,6 +1,6 @@
 # Ping Pong
 
-#### An HTML exercise, Oct/7/2018
+#### An HTML exercise, Oct/7/2018}
 
 #### By Torin Huff
 
