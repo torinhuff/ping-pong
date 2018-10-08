@@ -1,4 +1,4 @@
-# Ping Pong
+# Ping-Pong
 
 #### An HTML exercise, Oct/7/2018}
 
